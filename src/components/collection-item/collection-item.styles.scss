@@ -13,20 +13,24 @@
     background-position: center;
     margin-bottom: 5px;
   }
-  .custom-button{
+
+  .custom-button {
     width: 80%;
     opacity: 0.7;
     position: absolute;
-    top:255px;
+    top: 255px;
     display: none;
   }
 
-  &:hover{
-    .image{opacity: 0.8;}
-    .custom-button{opacity: 0.85;
+  &:hover {
+    .image {
+      opacity: 0.8;
+    }
+
+    .custom-button {
+      opacity: 0.85;
       display: flex;
     }
-    
   }
 
   .collection-footer {
@@ -44,15 +48,5 @@
     .price {
       width: 10%;
     }
-    
-  }
-  .btn-block{
-    display:block;
-    text-align: center;
-    padding: 10px 20px 10px 20px;
-    background: black;
-    color: white;
-    margin-top: 20px;
-    width: 100%;
   }
 }
